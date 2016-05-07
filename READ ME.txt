@@ -1,0 +1,22 @@
+Simplification of Grammars,
+
+All undesirable production rules of a grammar are removed by using the following steps:
+
+	a) Removing Lambda productions
+	b) Removing unit productions
+	c) Removing useless productions
+
+"Simplify.cpp" is a C++ code that removes the aforementioned operations from a grammar and produces a simplified version of it.
+
+
+*Works only with context-free Grammars*
+So make sure the grammar is of the form  A->x, where A E V and x E (V U T)*
+V : Non-terminal
+T: Terminal
+
+
+There is a screenshot provided with the code. Do refer to them to understand how the input is like and how the code works. Thank you.
+
+
+© Copyrights Abhishek Sampath
+ 
